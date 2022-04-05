@@ -54,8 +54,33 @@
     transform: scale(2);
 }
 
+.ex-5-square:active {
+    transform: scale(.5);
+}
+
 .ex-6-img, .ex-7-img, .ex-8-img {
-    width: 500px;
+    width: 50%;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img {
+    transition: 2s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1) blur(2px);
+}
+
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(.6) blur(2px);
+    border-radius: 30px;
 }
 
 .ex-9-img {
